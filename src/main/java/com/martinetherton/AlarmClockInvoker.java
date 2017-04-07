@@ -7,9 +7,9 @@ import org.springframework.scheduling.annotation.Scheduled;
  */
 public class AlarmClockInvoker {
 
-    @Scheduled(fixedDelay=5000)
+    @Scheduled(fixedDelay=6000)
     public void invoke() {
         System.out.println("Invoker invoked");
     }
 
-}   
+}
